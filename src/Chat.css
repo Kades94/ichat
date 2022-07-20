@@ -1,0 +1,34 @@
+
+.container{
+	height:100vh;
+	width:100vw;
+	display: grid;
+	place-items: center;
+  	background-image: url('https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg');
+  	object-fit: contain;
+  	background-repeat: no-repeat;
+}
+
+.chat{
+	height:600px;
+	width:900px;
+	display: flex;
+	z-index: 1000;
+	background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 0.7rem;
+    box-shadow: 0px 3px 29px 0px rgba(0,0,0,0.5);
+    border-right: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+}
+
+.sidebar{
+	flex: 2;
+	border-right: 1px solid hsla(0,0%,100%,.5);
+	overflow: scroll;
+}
+
+.chatbox{
+	flex: 5;
+	width: 100%;
+}

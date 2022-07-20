@@ -1,0 +1,31 @@
+.box{
+	background-color: rgba(154,205,50, 0.2);
+    backdrop-filter: blur(10px);
+	border-radius: 10px;
+	margin: 6px;
+	padding: 10px;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.yours > .box{
+	background-color: rgba(0,255,255,.2);
+    backdrop-filter: blur(10px);
+}
+
+.contain.mine{
+	float: right;
+
+}
+
+.contain.yours{
+	float: left;
+}
+
+.contain{
+	clear: both;
+	width: 40%;
+	word-break: break-all;
+}
+
